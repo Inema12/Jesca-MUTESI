@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 97%;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: block;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.nav-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+.nav-links.show {
+    display: block;
+}
+.div1{
+    background-image: url(image/6edb4b09c393a9499bad5d647ace298b.jpg);
+    height: 90vh;
+    display: flex;
+    
+}
+.div1 h1{
+    margin-left: 550px;
+    margin-top: 300px;
+    color: white;
+    font-size: 25px;
+}
+.div2 h1{
+    font-size: 30px;
+
+}
+.div2{
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.div3{
+    background-image: url(image/c38e1af208364d5276fbc705d6a411a3.jpg);
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 80vh;
+}
+.div5{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 220px;
+    color: white;
+}
+.div5 h2{
+font-size: 30px;
+}
+button{
+    background-color: rgb(110, 212, 110);
+    color: white;
+    border-radius: 20px; 
+    width: 180px; 
+    height: 35px;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
