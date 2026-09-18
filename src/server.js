@@ -8,6 +8,8 @@ const enrollmentRoutes = require("./routes/enrollmentRoutes");
 const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
+require('dotenv').config();
+
 
 // Lets us read JSON request bodies (req.body)
 app.use(express.json());
