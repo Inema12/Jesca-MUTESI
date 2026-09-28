@@ -18,7 +18,7 @@ export default function Courses() {
   const colors = {
     bgCanvas: "#f8fafc",        
     brandNeon: "#10b981",       
-    textPrimary: "#0f172a",     
+    textPrimary: "#d5dae4",     
     textMuted: "#94a3b8",       
     border: "#334155",          
     cardBg: "#364a6b"           
